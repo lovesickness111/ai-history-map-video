@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "scene_profile": "landscape",
+  "title": "THĂNG LONG · HÀ NỘI",
+  "subtitle": "1010–1900 · Đô thị trong dòng lịch sử",
+  "fps": 30,
+  "frame_end": 900,
+  "anchors": [
+    {"frame": 1, "year": 1010},
+    {"frame": 121, "year": 1049},
+    {"frame": 661, "year": 1812},
+    {"frame": 841, "year": 1900},
+    {"frame": 900, "year": 1900}
+  ],
+  "events": [
+    {"frame": 1, "end_frame": 120, "text": "Một hành trình qua hình khối và thời gian"},
+    {"frame": 121, "end_frame": 240, "text": "1049 · Khởi dựng Chùa Một Cột", "source": "https://www.thuviendongnai.gov.vn/trangtin/ThangLongHN/Lists/Posts/Post.aspx?ID=53&List=dd99b9d5-be8e-4ca7-9c10-8e2990bc182b"},
+    {"frame": 241, "end_frame": 420, "text": "Những nếp nhà đầu tiên · Minh họa tăng mật độ"},
+    {"frame": 421, "end_frame": 660, "text": "Phố nối phố, mái nối mái · Minh họa"},
+    {"frame": 661, "end_frame": 780, "text": "1812 · Cột Cờ Hà Nội", "source": "https://hoangthanhthanglong.vn/khu-di-tich-trung-tam-hoang-thanh-thang-long/"},
+    {"frame": 781, "end_frame": 840, "text": "Dáng hình phố cổ · Minh họa tăng mật độ"},
+    {"frame": 841, "end_frame": 900, "text": "1900 · Dấu ấn còn lại cùng thời gian"}
+  ],
+  "instances": [
+    {"id": "pagoda", "model_id": "chua_mot_cot", "seed": 1049, "position": [-12, 7, 0.025], "rotation": [0, 0, 0], "scale": [1.35, 1.35, 1.35], "start_frame": 121, "end_frame": 180, "params": {"size": 1}},
+    {"id": "flag_tower", "model_id": "cot_co", "seed": 1812, "position": [-11, -6, 0.025], "rotation": [0, 0, 0], "scale": [1.8, 1.8, 1.8], "start_frame": 661, "end_frame": 720, "params": {"size": 1}}
+  ],
+  "town": {"seed": 1049, "layout": "district"}
+}

@@ -1,0 +1,6 @@
+Copernicus GLO-30 DSM: https://registry.opendata.aws/copernicus-dem/
+Copernicus licence: https://spacedata.copernicus.eu/collections/copernicus-digital-elevation-model
+Map data © OpenStreetMap contributors, ODbL: https://www.openstreetmap.org/copyright
+Country outline: Natural Earth, public domain: https://www.naturalearthdata.com/
+Overview elevation: Terrain Tiles / Mapzen: https://github.com/tilezen/joerd/blob/master/docs/attribution.md
+Landmark coordinates: Wikidata CC0; individual URLs in landmarks.geojson

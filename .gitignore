@@ -1,0 +1,36 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Local tools & downloads
+tools/
+
+# Build artifacts & output
+output/
+*.blend1
+*.blend2
+*.blend@
+
+# GIS download cache
+data/gis_cache/
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo

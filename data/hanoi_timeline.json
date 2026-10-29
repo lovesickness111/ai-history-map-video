@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "scene_profile": "geographic",
+  "gis_scene": "gis/hanoi/scene.json",
+  "title": "THĂNG LONG · HÀ NỘI",
+  "subtitle": "1010–1900 · Đô thị trong dòng lịch sử",
+  "fps": 30,
+  "frame_end": 900,
+  "anchors": [
+    {"frame": 1, "year": 1010},
+    {"frame": 121, "year": 1049},
+    {"frame": 661, "year": 1812},
+    {"frame": 841, "year": 1900},
+    {"frame": 900, "year": 1900}
+  ],
+  "events": [
+    {"frame": 1, "end_frame": 120, "text": "1010 · Vua Lý Thái Tổ dời đô về Thăng Long", "source": "https://www.thuviendongnai.gov.vn/trangtin/ThangLongHN/Lists/Posts/Post.aspx?ID=53"},
+    {"frame": 121, "end_frame": 240, "text": "1049 · Triều Lý khởi dựng Chùa Một Cột (Diên Hựu Tự)", "source": "https://www.thuviendongnai.gov.vn/trangtin/ThangLongHN/Lists/Posts/Post.aspx?ID=53"},
+    {"frame": 241, "end_frame": 420, "text": "Kinh thành mở rộng · Thị dân quy tụ ven Sông Tô Lịch"},
+    {"frame": 421, "end_frame": 660, "text": "Thăng Long 36 Phố Phường · Buôn có bạn, bán có phường"},
+    {"frame": 661, "end_frame": 780, "text": "1812 · Triều Nguyễn xây dựng Cột Cờ Hà Nội", "source": "https://hoangthanhthanglong.vn/khu-di-tich-trung-tam-hoang-thanh-thang-long/"},
+    {"frame": 781, "end_frame": 840, "text": "Đô thị cận đại · Dáng hình phố cổ vững bền cùng thời gian"},
+    {"frame": 841, "end_frame": 900, "text": "1900 · Di sản ngàn năm văn hiến"}
+  ],
+  "instances": [
+    {"id": "pagoda", "model_id": "chua_mot_cot", "seed": 1049, "position": [-12, 7, 0.025], "rotation": [0, 0, 0], "scale": [1.35, 1.35, 1.35], "start_frame": 121, "end_frame": 180, "params": {"size": 1}},
+    {"id": "flag_tower", "model_id": "cot_co", "seed": 1812, "position": [-11, -6, 0.025], "rotation": [0, 0, 0], "scale": [1.8, 1.8, 1.8], "start_frame": 661, "end_frame": 720, "params": {"size": 1}}
+  ]
+}
